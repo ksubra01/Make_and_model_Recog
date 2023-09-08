@@ -1,5 +1,5 @@
 
-## Support Vector Machine based Vehicle Make and Model Recognition  
+## Vehicle Make and Model Recognition  
 # Table of Contents:  
 1. Introduction  
 2. Problem set up.  
