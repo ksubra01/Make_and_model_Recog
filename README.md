@@ -24,6 +24,9 @@ This line of code will load your drive to Google Colab. Please make sure to give
 The label_image.py file will create read the image and assign the name of the make and model by using the folder in which the images is present. For each class of vehicle, a number is assigned. The first vehicle( in our case, Audi A5) will get mapped to number 0. The next class, will get mapped to 1 and so on. The function label_image.py returns the list of images (each image as a 3d matrix), list of numerical mappings of each class of vehicle and a dictionary in which the keys are the vehicle make and model and the corresponding values are the number assigned to that class. 
 ![](https://github.com/ksubra01/Make_and_model_Recog/blob/main/pic2.png)
 The data is loaded and the required input matrix and labels are ready to be used.  
+
+Data used for training and testing:  
+![](https://github.com/ksubra01/Make_and_model_Recog/blob/main/image.png)
 # How to execute the code
 • If using Google Colab, make sure to upload the data set to your drive before execution.  
 • Load Google drive to Google colab following the steps given above.  
