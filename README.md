@@ -40,3 +40,5 @@ For convenience, we have included the entire python notebook. This notebook need
 • The Clustering and the feature_vector_creation functions are part of the Bag of Words implementation. The Clustering() function performs k means clustering on the extracted SIFT descriptors and creates what’s known as a “visual dictionary” using the pickle library. The feature_vector_creation() function takes in the SIFT image descriptors, the number of clusters(vocabulary size) and clustered model. The output of this function is the required feature vector.  
 ![](https://github.com/ksubra01/Make_and_model_Recog/blob/main/pic4.png)
 • This feature vector for each image is of dimensions vocabulary size x 1. This feature vector is split into train and test and given as input to the SVM with different regularization constants and various kernel configurations in the main code for SVM. In the main part of the code, the above mentioned functions are called and the resulting feature vector is used to train and test SVM.  
+
+  Project based on [this paper](https://www.researchgate.net/publication/318565053_Support_Vector_Machine_based_Vehicle_Make_and_Model_Recognition_System)
